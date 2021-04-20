@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>edu.ifa</groupId>
-	<artifactId>ifachat</artifactId>
+	<artifactId>BlocNote</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ifachat</name>
-	<description>Projet Demo pour un chat en Java</description>
+	<name>blocnote</name>
+	<description>Projet Demo pour un blocnote en Java</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

@@ -1,11 +1,8 @@
-package edu.ifa.ifachat.model;
+package edu.ifa.blocnote.model;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-import javax.persistence.Entity;
-import javax.persistence.EntityListeners;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -17,7 +14,7 @@ public class Utilisateur {
     private String pseudo;
     private String motDePasse;
 
-    @ManyToOne
+    @OneToMany(mappedBy = "utilisateur")
     private List<Note> listeNotes;
 
     public int getId() {

@@ -1,4 +1,4 @@
-package edu.ifa.ifachat.model;
+package edu.ifa.blocnote.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;

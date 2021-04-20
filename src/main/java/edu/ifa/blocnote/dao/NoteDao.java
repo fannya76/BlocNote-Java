@@ -1,6 +1,6 @@
-package edu.ifa.ifachat.dao;
+package edu.ifa.blocnote.dao;
 
-import edu.ifa.ifachat.model.Note;
+import edu.ifa.blocnote.model.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
-package edu.ifa.ifachat.controller;
+package edu.ifa.blocnote.controller;
 
-import edu.ifa.ifachat.dao.NoteDao;
-import edu.ifa.ifachat.model.Note;
+import edu.ifa.blocnote.model.Note;
+import edu.ifa.blocnote.dao.NoteDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

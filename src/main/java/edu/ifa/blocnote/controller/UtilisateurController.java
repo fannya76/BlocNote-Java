@@ -1,8 +1,8 @@
-package edu.ifa.ifachat.controller;
+package edu.ifa.blocnote.controller;
 
-import edu.ifa.ifachat.dao.UtilisateurDao;
-import edu.ifa.ifachat.model.Note;
-import edu.ifa.ifachat.model.Utilisateur;
+import edu.ifa.blocnote.dao.UtilisateurDao;
+import edu.ifa.blocnote.model.Note;
+import edu.ifa.blocnote.model.Utilisateur;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,4 +30,6 @@ public class UtilisateurController {
 
         return utilisateurDao.findById(id).orElse(null);
     }
+
+
 }
