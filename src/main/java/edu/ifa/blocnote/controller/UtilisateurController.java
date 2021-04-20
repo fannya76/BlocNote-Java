@@ -30,6 +30,4 @@ public class UtilisateurController {
 
         return utilisateurDao.findById(id).orElse(null);
     }
-
-
 }

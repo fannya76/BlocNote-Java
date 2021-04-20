@@ -16,12 +16,9 @@ public class Note {
     private int id;
     private String contenu;
 
+    @JsonIgnore
     @ManyToOne // cardinalité 1,n Plusieurs notes associés à un seul utilisateur
     private Utilisateur editeur;
-
-    @JsonIgnore // qd on recupère les msg ds la bdd, on ignore le champ "salon" sinon boucle "salon" infini
-    @ManyToOne // cardinalité 1,n Un salon peut contenir plusieurs messages
-//    private BlocNote blocNote;
 
     public int getId() {
         return id;

@@ -14,7 +14,7 @@ public class Utilisateur {
     private String pseudo;
     private String motDePasse;
 
-    @OneToMany(mappedBy = "utilisateur")
+    @OneToMany(mappedBy = "editeur")
     private List<Note> listeNotes;
 
     public int getId() {
