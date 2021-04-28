@@ -1,0 +1,36 @@
+main {
+    margin : 15px;
+}
+
+body {
+    font-family: sans-serif;
+    background: #333;
+    color:antiquewhite;
+}
+
+
+.invisible {
+    display: none;
+}
+
+#listes {
+    display: flex;
+}
+
+.template-liste {
+    width: 200px;
+    margin : 20px;
+    padding: 10px;
+    background-color: black;
+    border : 1px solid #ffc700;
+}
+
+.flex {
+    display: flex;
+}
+
+.delete {
+    margin-left: auto;
+    color :red;
+    cursor: pointer;
+}

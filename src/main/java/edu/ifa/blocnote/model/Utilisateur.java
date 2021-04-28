@@ -17,6 +17,17 @@ public class Utilisateur {
     @OneToMany(mappedBy = "editeur")
     private List<Note> listeNotes;
 
+    @OneToMany(mappedBy = "editeur")
+    private List<Liste> listeListes;
+
+    public List<Liste> getListeListes() {
+        return listeListes;
+    }
+
+    public void setListeListes(List<Liste> listeListes) {
+        this.listeListes = listeListes;
+    }
+
     public int getId() {
         return id;
     }
